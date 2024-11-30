@@ -4,9 +4,9 @@ import MainLayout from "../components/layouts/main.layout";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Home from "../pages";
-import About from "../pages/about";
-import NotFound from "../pages/404";
-import Contact from "../pages/contact";
+import Configm from "../pages/confirm";
+import NotFound from "../pages/not-found";
+import MissedIt from "../pages/missed-it";
 
 export default function Router() {
     return <React.Suspense fallback={<Loader />}>
@@ -16,8 +16,8 @@ export default function Router() {
                     <Route path="*" Component={NotFound} />
 
                     <Route path="/" Component={Home} />
-                    <Route path="/about-us" Component={About} />
-                    <Route path="/contact-us" Component={Contact} />
+                    <Route path="/thank-you" Component={Configm} />
+                    <Route path="/mmissed-it" Component={MissedIt} />
                 </Route>
             </Routes>
         </BrowserRouter>
