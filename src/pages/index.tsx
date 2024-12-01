@@ -8,7 +8,7 @@ import Waitlist from "../components/waitlist";
 import Overview from "../components/overview";
 import { engagements } from "../constants/config";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { bannerImage, microscopeIcon, smilyIcon, whiteImage } from "../constants/media";
+import { mainHeroImage, microscopeIcon, smilyIcon, whiteImage } from "../constants/media";
 
 export default function Page() {
     const [index, setIndex] = React.useState(0);
@@ -18,7 +18,7 @@ export default function Page() {
     }, []);
 
     return <>
-        <Hero image={bannerImage}>
+        <Hero image={mainHeroImage}>
             <div className="flex flex-1 flex-col gap-10 text-center md:text-left">
                 <span className="text-blue-normal text-xl md:text-3xl">
                     Welcome to STEM Teacher Training

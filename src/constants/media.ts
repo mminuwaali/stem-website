@@ -10,6 +10,6 @@ export { default as microscopeIcon } from "../assets/icons/microscope.webp";
 export { default as cta1Image } from "../assets/images/cta-1.png";
 export { default as cta2Image } from "../assets/images/cta-2.png";
 export { default as cta3Image } from "../assets/images/cta-3.png";
-export { default as bannerImage } from "../assets/images/side.png";
+export { default as mainHeroImage } from "../assets/images/side.png";
 export { default as whiteImage } from "../assets/images/white.webp";
 export { default as enrollImage } from "../assets/images/enroll.webp";
