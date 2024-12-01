@@ -1,9 +1,35 @@
 import React from "react";
+import Hero from "../components/hero";
 import Overview from "../components/overview";
 import { microscopeIcon } from "../constants/media";
 
 export default function Page() {
     return <>
+        <Hero image="">
+            <div className="flex flex-1 flex-col gap-10 text-center md:text-left">
+                <div className="relative mx-auto md:w-4/5 z-10 gap-4 flex flex-col">
+                    <h2 className="text-xl md:text-6xl">
+                        Thank You for Joining <br /> STEM Teacher Training
+                    </h2>
+
+                    <p className="z-50 md:text-2xl text-justify md:text-left">
+                        You've just taken an incredible step toward transforming your classroom,
+                        and we're thrilled to have you in our STEM Teacher Training community!
+                    </p>
+                </div>
+
+                <div className="relative mx-auto md:w-4/5 z-10 gap-4 flex flex-col">
+                    <span className="text-green-normal text-xl md:text-4xl">
+                        What's Next?
+                    </span>
+
+                    <p className="z-50 md:text-2xl text-justify md:text-left">
+                        We'll be sending a confirmation email shortly with everything you need to get started.
+                        Be sure to check your inbox (and double-check your spam folder, just in case!).
+                    </p>
+                </div>
+            </div>
+        </Hero>
         <Overview>
             <div className="w-full relative rounded-[2em] bg-white shadow-md gap-10 flex flex-col items-center py-10 p-4">
                 <header className="w-full flex flex-col items-center">

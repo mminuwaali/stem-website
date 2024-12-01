@@ -1,9 +1,9 @@
 import React from "react";
 import Cta from "../components/cta";
+import Hero from "../components/hero";
 import WhyUs from "../components/why-us";
 import Expect from "../components/expect";
 import Enroll from "../components/enroll";
-import Banner from "../components/banner";
 import Waitlist from "../components/waitlist";
 import Overview from "../components/overview";
 import { engagements } from "../constants/config";
@@ -18,7 +18,7 @@ export default function Page() {
     }, []);
 
     return <>
-        <Banner image={bannerImage}>
+        <Hero image={bannerImage}>
             <div className="flex flex-1 flex-col gap-10 text-center md:text-left">
                 <span className="text-blue-normal text-xl md:text-3xl">
                     Welcome to STEM Teacher Training
@@ -42,7 +42,7 @@ export default function Page() {
                     Join the Waitlist <FaArrowRightLong size={20} />
                 </a>
             </div>
-        </Banner>
+        </Hero>
         <Overview>
             <div className="w-full relative rounded-[2em] bg-white shadow-md gap-10 flex flex-col p-10">
                 <img src={microscopeIcon} alt="" className="h-20 absolute left-3/4 md:left-1/5 -top-6 md:top-auto md:bottom-0 translate-y-1/2" />
