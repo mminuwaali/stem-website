@@ -39,7 +39,7 @@ body {
   width: 100%;
   height: auto;
   display: flex;
-  background: rgb(219, 234, 254);
+  background: rgb(236,245,255);
 
   &::before {
     top: 0;
