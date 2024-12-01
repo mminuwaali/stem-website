@@ -18,7 +18,7 @@ export default function Footer() {
             </nav>
 
             <span className="pr-2 first-letter:capitalize">
-                website designed by <a href="http://github.com/mminuwaali" target="_blank" rel="noopener noreferrer">mminuwaali</a>
+                website designed by Waaki creative
             </span>
         </div>
     </footer>;

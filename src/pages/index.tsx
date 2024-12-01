@@ -38,9 +38,9 @@ export default function Page() {
                     <img src={whiteImage} alt="" className="w-full h-full absolute top-0 left-0 -z-10 hidden md:flex" />
                 </div>
 
-                <button className="border-none outline-none self-center bg-blue-normal text-white flex items-center gap-2 hover:gap-5 px-8 py-2 md:text-lg rounded-full transition-all">
+                <a href="#waitlist-form" className="border-none outline-none self-center bg-blue-normal text-white flex items-center gap-2 hover:gap-5 px-8 py-2 md:text-lg rounded-full transition-all">
                     Join the Waitlist <FaArrowRightLong size={20} />
-                </button>
+                </a>
             </div>
         </Banner>
         <Overview>

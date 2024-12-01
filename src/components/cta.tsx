@@ -16,8 +16,8 @@ export default function Cta() {
         </h2>
 
         <div className="w-full flex flex-wrap rounded-3xl bg-gray-normal overflow-hidden">
-            <img src={current.image} alt="" className="flex-1 basis-80 object-contain" />
-            <div className={`flex flex-1 basis-80 items-center justify-center p-10 duration-500 transition-all ${current.className}`}>
+            <img src={current.image} alt="" className="flex-1 basis-80 object-contain rounded-t-3x md:rounded-l-3x" />
+            <div className={`flex flex-1 basis-80 items-center justify-center p-10 duration-500 rounded-b-3x md:rounded-r-3x transition-all ${current.className}`}>
                 <p className="text-white text-justify text-lg md:text-4xl">{current.content}</p>
             </div>
         </div>

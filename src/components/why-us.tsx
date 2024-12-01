@@ -14,9 +14,9 @@ export default function WhyUs() {
                 nurtures critical thinking, and bridges the gap between school and the real world.
             </p>
 
-            <button className="border-none outline-none bg-blue-normal text-white flex items-center gap-2 hover:gap-5 px-5 py-2 rounded-full transition-all">
+            <a href="#waitlist-form" className="border-none outline-none bg-blue-normal text-white flex items-center gap-2 hover:gap-5 px-5 py-2 rounded-full transition-all">
                 Join the Waitlist <FaArrowRightLong size={20} />
-            </button>
+            </a>
         </div>
     </section>
 }
