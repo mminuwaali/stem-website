@@ -17,7 +17,7 @@ export default function Router() {
 
                     <Route path="/" Component={Home} />
                     <Route path="/thank-you" Component={Configm} />
-                    <Route path="/mmissed-it" Component={MissedIt} />
+                    <Route path="/missed-it" Component={MissedIt} />
                 </Route>
             </Routes>
         </BrowserRouter>
