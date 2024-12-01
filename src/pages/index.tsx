@@ -3,12 +3,12 @@ import Cta from "../components/cta";
 import WhyUs from "../components/why-us";
 import Expect from "../components/expect";
 import Enroll from "../components/enroll";
+import Banner from "../components/banner";
 import Waitlist from "../components/waitlist";
 import Overview from "../components/overview";
 import { engagements } from "../constants/config";
-import { microscopeIcon, smilyIcon, whiteImage } from "../constants/media";
-import Banner from "../components/banner";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { bannerImage, microscopeIcon, smilyIcon, whiteImage } from "../constants/media";
 
 export default function Page() {
     const [index, setIndex] = React.useState(0);
@@ -18,13 +18,13 @@ export default function Page() {
     }, []);
 
     return <>
-        <Banner>
-            <div className="flex flex-1 flex-col gap-6 text-center md:text-left">
+        <Banner image={bannerImage}>
+            <div className="flex flex-1 flex-col gap-10 text-center md:text-left">
                 <span className="text-blue-normal text-xl md:text-3xl">
                     Welcome to STEM Teacher Training
                 </span>
 
-                <h2 className="text-xl md:text-6xl font-semibold">
+                <h2 className="text-xl md:text-8xl font-semibold">
                     Transforming <br /> Classrooms for<br /> the Next Generation
                 </h2>
 
