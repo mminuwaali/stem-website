@@ -37,6 +37,7 @@ body {
   width: 100%;
   height: auto;
   display: flex;
+  background: rgb(219, 234, 254);
 
   &::before {
     top: 0;
