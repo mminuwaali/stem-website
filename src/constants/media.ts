@@ -3,7 +3,7 @@ export { default as nodeIcon } from "../assets/icons/node.webp";
 export { default as smilyIcon } from "../assets/icons/smily.webp";
 export { default as sparkIcon } from "../assets/icons/spark.webp";
 export { default as cameraIcon } from "../assets/icons/camera.webp";
-export { default as googlesIcon } from "../assets/icons/googles.webp";
+export { default as gogglesIcon } from "../assets/icons/goggles.webp";
 export { default as sateliteIcon } from "../assets/icons/satelite.webp";
 export { default as microscopeIcon } from "../assets/icons/microscope.webp";
 
