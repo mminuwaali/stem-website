@@ -1,3 +1,4 @@
+import { cta1Image, cta2Image, cta3Image } from "./media";
 import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 export const socialMediaLinks = [
@@ -11,6 +12,36 @@ export const overviews = [
         title: "imagine this",
         description: "",
     }
+];
+
+export const engagements = [
+    {
+        content: "Students fully engaged as they explore STEM concepts that connect with real-world challenges and opportunities.",
+    },
+    {
+        content: "Lessons that cross boundaries, where math meets physical education, science meets design, and every subject comes alive with purpose.",
+    },
+    {
+        content: "A classroom culture that fosters growth and curiosity, encouraging students to explore, ask questions, and take ownership of their learning.",
+    },
+];
+
+export const ctsa = [
+    {
+        image: cta1Image,
+        className: "bg-clay-normal",
+        content: "Educators looking to make an impact through STEM and create meaningful, engaging lessons."
+    },
+    {
+        image: cta2Image,
+        className: "bg-orange-normal",
+        content: "Teachers from all subjects who want to integrate STEM into their curriculum, even if they don’t have a STEM background."
+    },
+    {
+        image: cta3Image,
+        className: "bg-blue-normal",
+        content: "School leaders and curriculum developers aiming to bring real-world, collaborative learning to their classrooms."
+    },
 ];
 
 export const expectations = [

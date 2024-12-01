@@ -7,7 +7,7 @@ export default function Page() {
         <Overview>
             <div className="w-full rounded-[2em] bg-white shadow-md gap-10 flex flex-col items-center py-20 p-4 relative">
                 <header className="w-full flex flex-col items-center">
-                    <h2 className="text-center font-bold text-xl md:text-4xl text-blue-600">Here's what educators loved about the last session:</h2>
+                    <h2 className="text-center font-bold text-xl md:text-4xl text-blue-normal">Here's what educators loved about the last session:</h2>
                 </header>
 
                 <ul className="list-disc flex flex-col items-center text-lg">
@@ -22,7 +22,7 @@ export default function Page() {
 
         <section className="w-full flex gap-10 flex-col py-10 pl-spacing-normal px-spacing-small md:pl-spacing-x-large md:px-spacing-normal">
             <header className="w-full flex flex-col items-center">
-                <h3 className="text-center text-xl md:text-3xl text-blue-600">Here's how to prepare for the course:</h3>
+                <h3 className="text-center text-xl md:text-3xl text-blue-normal">Here's how to prepare for the course:</h3>
             </header>
 
             <ul className="list-disc flex flex-col items-center text-xl">

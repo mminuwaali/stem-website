@@ -7,8 +7,8 @@ export default function Page() {
         <Overview>
             <div className="w-full relative rounded-[2em] bg-white shadow-md gap-10 flex flex-col items-center py-10 p-4">
                 <header className="w-full flex flex-col items-center">
-                    <h2 className="text-center text-xl md:text-4xl text-blue-600">Get Ready to Transform Your Classroom</h2>
-                    <h3 className="text-center text-xl md:text-3xl text-blue-600">Here's how to prepare for the course:</h3>
+                    <h2 className="text-center text-xl md:text-4xl text-blue-normal">Get Ready to Transform Your Classroom</h2>
+                    <h3 className="text-center text-xl md:text-3xl text-blue-normal">Here's how to prepare for the course:</h3>
                 </header>
 
                 <ul className="list-disc flex flex-col items-center text-lg">
