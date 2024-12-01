@@ -12,6 +12,10 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Page() {
     const [index, setIndex] = React.useState(0);
+    React.useEffect(() => {
+        let interval = setInterval(() => setIndex(prev => (prev + 1) % engagements.length), 5000);
+        return () => clearInterval(interval);
+    }, []);
 
     return <>
         <Banner>
