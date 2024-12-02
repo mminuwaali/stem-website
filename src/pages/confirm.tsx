@@ -1,11 +1,11 @@
 import React from "react";
 import Hero from "../components/hero";
 import Overview from "../components/overview";
-import { mainHeroImage, microscopeIcon } from "../constants/media";
+import { thankHeroImage, microscopeIcon } from "../constants/media";
 
 export default function Page() {
     return <>
-        <Hero image={mainHeroImage}>
+        <Hero image={thankHeroImage}>
             <div className="flex flex-1 flex-col gap-10 text-center md:text-left">
                 <div className="relative mx-auto md:w-4/5 z-10 gap-4 flex flex-col">
                     <h2 className="text-xl md:text-6xl">
