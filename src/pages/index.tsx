@@ -24,7 +24,7 @@ export default function Page() {
                     Welcome to STEM Teacher Training
                 </span>
 
-                <h2 className="text-xl md:text-8xl font-semibold">
+                <h2 className="text-xl md:text-8xl font-semibold whitespace-nowrap">
                     Transforming <br /> Classrooms for<br /> the Next Generation
                 </h2>
 
@@ -45,7 +45,7 @@ export default function Page() {
         </Hero>
         <Overview>
             <div className="w-full relative rounded-[2em] bg-white shadow-md gap-10 flex flex-col p-10">
-                <img src={microscopeIcon} alt="" className="h-20 absolute left-3/4 md:left-1/5 -top-6 md:top-auto md:bottom-0 translate-y-1/2" />
+                <img src={microscopeIcon} alt="" className="h-20 absolute left-3/4 md:left-20 -top-6 md:top-auto md:bottom-0 translate-y-1/2" />
                 <img src={smilyIcon} alt="" className="absolute -bottom-4 md:bottom-auto md:top-10 right-0 md:right-10 h-10 md:h-20" />
 
                 <h2 className="text-2xl md:text-5xl capitalize px-10 text-center md:text-left">imagine this</h2>
